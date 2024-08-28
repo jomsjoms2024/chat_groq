@@ -60,7 +60,7 @@ models = {
 }
 
 # Filter out only LLaMA models
-llama_models = {k: v for k, v in models.items() if 'llama' in k.lower()}
+llama_models = {k: v for k, v in models.items() if 'llama3' in k.lower()}
 
 # Layout for model selection
 with st.container():
